@@ -1,0 +1,41 @@
+:root{
+  /* ----- Colors ----- */
+  --body-color-light:white;
+  --body-color-dark:black;
+  --color-grey:grey;
+  --color-blush:#FBEAE3;
+  --color-levender:#E4DBEA;
+  --color-blue:#E0EDFC;
+  --color-green:#DFF5F1;
+  --color-levender2:#DFF5F1;
+  --color-yellow:#F9F6CC;
+
+  /* ----- Fonts ----- */
+  --small-body:16px;
+  --mid-body:24px;
+  --large-body:32px;
+  --xlarge-body:55px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body{
+  height: 100%;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+.App {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.section{
+  margin: 70px 100px 0 100px;
+}
