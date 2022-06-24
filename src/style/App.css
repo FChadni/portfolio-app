@@ -20,16 +20,21 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: montserrat, sans-serif;
 }
-body{
+html,body{
   height: 100%;
   width: 100%;
-  /*overflow: hidden;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .App {
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin: 50px 200px 50px 200px;
 }
-
 ul{
   list-style: none;
 }
@@ -37,5 +42,31 @@ a{
   text-decoration: none;
 }
 .section{
-  margin: 70px 100px 0 100px;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 330px) and (max-width: 550px){
+  .App {
+    text-align: center;
+    margin: 50px 10px 50px 10px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 650px){
+  .App {
+    text-align: center;
+    margin: 50px 25px 50px 25px;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 750px){
+  .App {
+    text-align: center;
+    margin: 50px;
+  }
+}
+@media only screen and (min-width: 751px) and (max-width: 1200px){
+  .App {
+    text-align: center;
+    margin: 60px;
+  }
 }

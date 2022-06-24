@@ -1,0 +1,242 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px !important;
+    justify-content: center;
+    align-items: center;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+    background: #C1E1C1;
+    padding: 3px;
+    border-radius: 25px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+}
+.about-intro{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.about-education, .about-experience, .about-expertise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.about-heading {
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    width: 420px;
+    padding: 5px 5px 5px 0;
+}
+.about-subheading{
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.8rem;
+    margin-left: 25px;
+    width: 590px;
+}
+.uni, .exp, .exp2{
+    font-size: 16px;
+    text-align: left;
+    color: #00008B;
+    font-weight: 500;
+}
+.exp2{
+    margin-top: 20px;
+}
+.about-list{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+}
+.about-languages, .about-tools{
+    display: flex;
+    flex-direction: row;
+}
+.about-skill-icon{
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.about-skill-icon img{
+    background: #C1E1C1;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+}
+.about-skill-icon p{
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.about-skill-icon img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.react{
+    border-radius: 5px;
+}
+@media only screen and (min-width: 330px) and (max-width: 550px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px !important;
+        justify-content: left;
+        align-items: start;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .about img{
+        width: 60%;
+        height: 60%;
+        object-fit: cover;
+        justify-content: center;
+        background: #C1E1C1;
+        padding: 3px;
+        margin-bottom: 8px;
+    }
+    .about-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .about-education, .about-experience, .about-expertise{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .about-heading {
+        width: auto;
+        padding: 0;
+    }
+    .about-subheading{
+        font-size: 16px;
+        width: auto;
+        padding: 0;
+        margin-left: 0;
+    }
+    .uni, .exp, .exp2{
+        font-size: 16px;
+        text-align: left;
+        color: #00008B;
+        font-weight: 500;
+    }
+    .exp2{
+        margin-top: 20px;
+    }
+    .about-list{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .about-skill-icon{
+        padding: 0 1px 0 1px;
+    }
+    .about-skill-icon img{
+        padding: 3px;
+    }
+    .about-skill-icon p{
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+    }
+    .about-skill-icon img{
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+    .react{
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 950px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px !important;
+        justify-content: left;
+        align-items: start;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .about img{
+        width: 60%;
+        height: 60%;
+        object-fit: cover;
+        justify-content: center;
+        background: #C1E1C1;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .about-intro{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .about-education, .about-experience, .about-expertise{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .about-heading {
+        width: 100%;
+        padding: 0;
+    }
+    .about-subheading{
+        font-size: 16px;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .uni, .exp, .exp2{
+        font-size: 16px;
+        text-align: left;
+        color: #00008B;
+        font-weight: 500;
+    }
+    .exp2{
+        margin-top: 20px;
+    }
+    .about-list{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 25px;
+    }
+    .about-skill-icon{
+        padding: 0 1px 0 1px;
+    }
+    .about-skill-icon img{
+        padding: 3px;
+    }
+    .about-skill-icon p{
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+    }
+    .about-skill-icon img{
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+    .react{
+        border-radius: 5px;
+    }
+}
